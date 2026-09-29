@@ -56,6 +56,10 @@ ol, ul { list-style: none; padding: 0; margin: 0; }
 .profile-photo { display: block; width: 250px; max-width: 100%; height: auto; border-radius: 14px 20px 14px 20px; transform: rotate(-3deg); margin: 0 0 27px; }
 .identity { display: inline-block; font-family: var(--display); font-size: 2rem; font-weight: 400; line-height: 1.2; letter-spacing: normal; text-decoration: none; }
 .identity:hover { text-decoration: none; opacity: .7; }
+.contact-links { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
+.contact-links a { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; color: var(--muted); border-radius: 4px; text-decoration: none; }
+.contact-links a:hover { color: var(--ink); background: #f5f5f5; }
+.contact-links svg { display: block; }
 nav { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; margin-top: 34px; }
 nav a { position: relative; padding: 5px 0; font-size: .9375rem; color: var(--muted); text-decoration: none; }
 nav a[aria-current="location"] { color: var(--ink); font-weight: 700; }
