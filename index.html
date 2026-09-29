@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Yunho Choi — about, education, publications, and collaborators." />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Yunho Choi</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%23222222'/%3E%3Cpath d='M8 8h5v16H8zm11 0h5v16h-5z' fill='white'/%3E%3C/svg%3E" />
+    <link rel="preload" href="assets/fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page">
+      <header class="sidebar">
+        <div class="profile">
+          <img class="profile-photo" src="assets/me.jpeg" alt="Yunho Choi enjoying a meal" width="1886" height="1536" fetchpriority="high" />
+          <div class="profile-details">
+            <a class="identity" href="#about">Yunho Choi</a>
+          </div>
+        </div>
+
+        <nav aria-label="Main navigation">
+          <a href="#about" aria-current="location">About</a>
+          <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
+          <a href="#collaborators">Collaborators</a>
+        </nav>
+      </header>
+
+      <main id="main">
+        <section class="about section" id="about" aria-labelledby="about-title">
+          <div class="section-heading">
+            <h1 id="about-title">About</h1>
+            <span class="section-number" aria-hidden="true">01</span>
+          </div>
+          <p class="bio">I am a Master student in <a href="https://gsds.snu.ac.kr/">Data Science</a> at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by <a href="https://yohanjo.github.io/">Prof. Yohan Jo</a> in the Human-Oriented Language Intelligence (HOLI) Lab.</p>
+          <p class="bio">My research has primarily focused on training algorithms for large language models, including preference learning, on-policy distillation, and RL. I am now broadening this focus to human–AI interaction, studying AI and humans together as an interconnected system rather than treating models in isolation.</p>
+        </section>
+
+        <section class="section" id="education" aria-labelledby="education-title">
+          <div class="section-heading">
+            <h2 id="education-title">Education</h2>
+            <span class="section-number" aria-hidden="true">02</span>
+          </div>
+          <ol class="education-list">
+            <li class="education-entry">
+              <div>
+                <h3>Seoul National University</h3>
+                <p>Master in Data Science</p>
+                <p class="secondary">Advisor: Prof. Yohan Jo</p>
+              </div>
+              <span class="date"><time datetime="2025-09">Sep. 2025</time> — Present</span>
+            </li>
+            <li class="education-entry">
+              <div>
+                <h3>Pohang University of Science and Technology (POSTECH)</h3>
+                <p>B.S., Industrial &amp; Management Engineering</p>
+                <p class="secondary">Advisor: Prof. GwangJae Kim</p>
+              </div>
+              <span class="date"><time datetime="2019-03">Mar. 2019</time> — <time datetime="2025-08">Aug. 2025</time></span>
+            </li>
+          </ol>
+        </section>
+
+        <section class="section" id="publications" aria-labelledby="publications-title">
+          <div class="section-heading">
+            <h2 id="publications-title">Publications</h2>
+            <span class="section-number" aria-hidden="true">03</span>
+          </div>
+          <!-- Titles and author order follow arXiv. Venue/status follow the user's updates. -->
+          <div class="publication-list">
+            <article class="publication">
+              <span class="date publication-year">2026</span>
+              <div>
+                <h3><a href="https://arxiv.org/abs/2605.07579">Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States</a></h3>
+                <p class="authors"><strong>Yunho Choi</strong><sup>*</sup>, Jongwon Lim<sup>*</sup>, Woojin Ahn, Minjae Oh, Jeonghoon Shim, Yohan Jo</p>
+                <p class="venue">NeurIPS 2026</p>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="date publication-year">2026</span>
+              <div>
+                <h3><a href="https://arxiv.org/abs/2605.07865">KL for a KL: On-Policy Distillation with Control Variate Baseline</a></h3>
+                <p class="authors">Minjae Oh, Sangjun Song, Gyubin Choi, <strong>Yunho Choi</strong>, Yohan Jo</p>
+                <p class="venue">NeurIPS 2026</p>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="date publication-year">2025</span>
+              <div>
+                <h3><a href="https://arxiv.org/pdf/2509.19893">Future Policy Approximation for Offline Reinforcement Learning in LLM Reasoning</a></h3>
+                <p class="authors">Minjae Oh, <strong>Yunho Choi</strong>, Dongmin Choi, Yohan Jo</p>
+                <p class="venue">Under review</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section collaborators-section" id="collaborators" aria-labelledby="collaborators-title">
+          <div class="section-heading">
+            <h2 id="collaborators-title">Collaborators</h2>
+            <span class="section-number" aria-hidden="true">04</span>
+          </div>
+          <ul class="collaborator-list">
+            <li>
+              <div class="collaborator-heading">
+                <h3><a href="https://riasok.github.io/">Minjae Oh</a></h3>
+              </div>
+              <p class="collaborator-bio">I don’t think I’d enjoy research this much if I hadn’t started out with you. Bouncing ideas around with you feels like being a kid with a box of LEGO again.</p>
+            </li>
+            <li>
+              <div class="collaborator-heading">
+                <h3><a href="https://elijah0430.github.io/">Jongwon Lim</a></h3>
+              </div>
+              <p class="collaborator-bio">You’ve shown me what it means to keep showing up and putting in the work. I’m still trying to pick up a bit of your work ethic.</p>
+            </li>
+          </ul>
+        </section>
+
+        <footer><span>© <span id="year">2026</span> Yunho Choi</span><a href="#about">Back to top</a></footer>
+      </main>
+    </div>
+  </body>
+</html>
