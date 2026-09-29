@@ -54,10 +54,11 @@ ol, ul { list-style: none; padding: 0; margin: 0; }
 .page { width: min(100% - 7rem, 1040px); margin: 0 auto; display: grid; grid-template-columns: 250px minmax(0, 1fr); column-gap: 60px; padding-top: 94px; }
 .sidebar { position: sticky; top: 94px; align-self: start; padding-bottom: 2rem; }
 .profile-photo { display: block; width: 250px; max-width: 100%; height: auto; border-radius: 14px 20px 14px 20px; transform: rotate(-3deg); margin: 0 0 27px; }
-.identity { display: inline-block; font-family: var(--display); font-size: 2rem; font-weight: 400; line-height: 1.2; letter-spacing: normal; text-decoration: none; }
+.profile-details { display: flex; align-items: center; gap: 12px; }
+.identity { display: inline-block; font-family: var(--display); font-size: 2rem; font-weight: 400; line-height: 1.2; letter-spacing: normal; text-decoration: none; white-space: nowrap; }
 .identity:hover { text-decoration: none; opacity: .7; }
-.contact-links { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
-.contact-links a { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; color: var(--muted); border-radius: 4px; text-decoration: none; }
+.contact-links { display: flex; flex: 0 0 auto; align-items: center; gap: 4px; }
+.contact-links a { display: flex; align-items: center; justify-content: center; width: 28px; height: 32px; color: var(--muted); border-radius: 4px; text-decoration: none; }
 .contact-links a:hover { color: var(--ink); background: #f5f5f5; }
 .contact-links svg { display: block; }
 nav { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; margin-top: 34px; }
@@ -102,6 +103,9 @@ footer a { text-decoration: none; }
 @media (max-width: 1000px) {
   .page { width: min(100% - 5rem, 900px); grid-template-columns: 220px minmax(0, 1fr); column-gap: 45px; padding-top: 64px; }
   .sidebar { top: 64px; }
+  .profile-details { gap: 8px; }
+  .contact-links { gap: 2px; }
+  .contact-links a { width: 24px; }
   .intro { font-size: 1.65rem; }
 }
 
@@ -109,10 +113,10 @@ footer a { text-decoration: none; }
   html { scroll-padding-top: 1.5rem; }
   .page { display: block; width: calc(100% - 3rem); padding-top: 36px; }
   .sidebar { position: static; padding-bottom: 0; margin-bottom: 35px; }
-  .profile { display: flex; align-items: center; gap: 23px; }
+  .profile { display: flex; flex-wrap: wrap; align-items: center; gap: 22px 23px; }
   .profile-photo { flex: 0 0 auto; width: 140px; margin: 0; }
-  .profile-details { min-width: 0; }
-  .identity { font-size: 1.8rem; overflow-wrap: anywhere; }
+  .profile-details { flex: 0 0 auto; min-width: 0; }
+  .identity { font-size: 1.8rem; }
   nav { flex-direction: row; flex-wrap: wrap; gap: 5px 22px; margin-top: 25px; padding-bottom: 17px; border-bottom: 1px solid var(--line); }
   nav a { font-size: .875rem; padding: 8px 0; }
   nav a[aria-current="location"] { text-decoration: underline; text-underline-offset: 6px; }
