@@ -15,7 +15,7 @@
 
 이름, 사진, About 소개 문장, Education의 서울대학교 석사 및 POSTECH 학사 이력에는 사용자 정보를 반영했습니다. Publications에는 제공한 arXiv 논문 세 편의 제목, 저자, 링크를 반영했습니다. Collaborators에는 Minjae Oh와 Jongwon Lim의 이름, 개인 홈페이지 링크 및 사용자와 함께 다듬은 편지 문장을 넣었습니다.
 
-1. `index.html`의 About 본문에서 소개와 연구 내용을 수정합니다. Data Science, Seoul National University, Prof. Yohan Jo에는 사용자가 제공한 링크를 연결했습니다. 프로필에는 Yunho Choi 이름 오른쪽에 LinkedIn과 이메일 아이콘을 한 줄로 표시합니다. LinkedIn은 제공된 프로필로, 이메일은 `mailto:dbsgh7177@snu.ac.kr`로 연결됩니다.
+1. `index.html`의 About 본문에서 소개와 연구 내용을 수정합니다. Data Science, Seoul National University, Prof. Yohan Jo에는 사용자가 제공한 링크를 연결했습니다. 프로필에는 Yunho Choi 이름 바로 아래에 LinkedIn과 이메일 아이콘 두 개를 한 줄로 표시합니다. LinkedIn은 제공된 프로필로, 이메일은 `mailto:dbsgh7177@snu.ac.kr`로 연결됩니다.
 2. Education의 `education-entry` 항목에서 학교, 학위, 지도교수, 기간을 수정합니다. 최신순으로 Seoul National University, Master in Data Science, Prof. Yohan Jo, 2025년 9월–현재와 Pohang University of Science and Technology (POSTECH), B.S., Industrial & Management Engineering, Prof. GwangJae Kim, 2019년 3월–2025년 8월을 반영했습니다.
 3. Publications의 `publication` 항목에서 논문 제목, 저자, 학회·저널, 연도를 수정합니다. 제목은 논문 링크로 연결되며 Yunho Choi 이름은 강조됩니다. 앞의 두 편은 사용자가 알려준 NeurIPS 2026으로, 마지막은 Under review로 표시했습니다. 마지막 논문의 연도는 arXiv 최초 제출 연도인 2025입니다.
 4. Collaborators의 각 `li` 항목에서 이름, 홈페이지 링크와 편지 문장을 수정합니다. 현재 [Minjae Oh](https://riasok.github.io/)와 [Jongwon Lim](https://elijah0430.github.io/)을 데스크톱에서는 좌우로, 모바일에서는 세로로 표시합니다. 각 이름 바로 아래에는 짧은 편지 문장이 들어갑니다.
