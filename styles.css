@@ -42,7 +42,7 @@
 }
 
 * { box-sizing: border-box; }
-html { font-size: 18px; scroll-behavior: smooth; scroll-padding-top: 3rem; }
+html { font-size: 17px; scroll-behavior: smooth; scroll-padding-top: 3rem; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 1rem; line-height: 1.65; font-optical-sizing: auto; -webkit-font-smoothing: antialiased; }
 ::selection { background: #e7e7e7; color: #111; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .25em; }
@@ -68,7 +68,7 @@ nav a[aria-current="location"]::before { content: ""; position: absolute; top: 5
 main { min-width: 0; }
 .section { padding: 0 0 42px; margin-bottom: 39px; border-bottom: 1px solid var(--line); scroll-margin-top: 8px; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 27px; }
-.section-heading h1, .section-heading h2 { font-family: var(--display); font-size: 1.5rem; line-height: 1.3; font-weight: 700; letter-spacing: normal; }
+.section-heading h1, .section-heading h2 { font-family: var(--display); font-size: 1.4rem; line-height: 1.3; font-weight: 700; letter-spacing: normal; }
 .section-number { color: var(--muted); font-size: .75rem; font-variant-numeric: tabular-nums; }
 .intro { font-family: var(--sans); font-size: 1.8rem; font-weight: 400; line-height: 1.45; letter-spacing: normal; margin-bottom: 22px; max-width: 610px; }
 .bio { color: var(--body); margin-top: 12px; line-height: 1.8; }
@@ -86,7 +86,7 @@ h3 { font-size: 1rem; line-height: 1.5; font-weight: 700; }
 .publication-list { display: grid; gap: 25px; }
 .publication + .publication { padding-top: 25px; border-top: 1px solid var(--line); }
 .publication { display: grid; grid-template-columns: 40px minmax(0, 1fr); column-gap: 16px; align-items: baseline; }
-.publication h3 { font-size: 1.25rem; line-height: 1.45; }
+.publication h3 { font-size: 1.1875rem; line-height: 1.45; }
 .publication h3 a { text-decoration: none; }
 .publication h3 a:hover { text-decoration: underline; }
 .authors { margin-top: 9px; font-size: .875rem; color: var(--body); line-height: 1.65; }
@@ -121,7 +121,7 @@ footer a { text-decoration: none; }
   nav a[aria-current="location"] { text-decoration: underline; text-underline-offset: 6px; }
   nav a[aria-current="location"]::before { display: none; }
   .section-heading { margin-bottom: 22px; }
-  .section-heading h1, .section-heading h2 { font-size: 1.5rem; }
+  .section-heading h1, .section-heading h2 { font-size: 1.4rem; }
   .intro { font-size: 1.6rem; }
   .section { margin-bottom: 32px; padding-bottom: 33px; }
   .education-entry { grid-template-columns: minmax(0, 1fr); }
