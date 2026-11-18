@@ -146,5 +146,5 @@ footer a { text-decoration: none; }
 
 .bio strong { color: var(--ink); font-weight: 700; }
 
-.paper-summary { font-size: .875rem; line-height: 1.7; color: #606060; font-style: italic; margin-top: 9px; padding-left: 12px; border-left: 2px solid var(--line); }
+.paper-summary { font-size: .875rem; line-height: 1.7; color: #606060; font-style: italic; margin-top: 7px; }
 .paper-summary strong { color: inherit; font-weight: 400; }
