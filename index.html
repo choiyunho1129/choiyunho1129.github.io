@@ -3,20 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Yunho Choi — research on large language model training and human–AI interaction, publications, and collaborators." />
-    <meta name="theme-color" content="#f8f7f3" />
+    <meta name="description" content="Yunho Choi — about, education, publications, and collaborators." />
+    <meta name="theme-color" content="#ffffff" />
     <title>Yunho Choi</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%23222222'/%3E%3Cpath d='M8 8h5v16H8zm11 0h5v16h-5z' fill='white'/%3E%3C/svg%3E" />
     <link rel="preload" href="assets/fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="styles.css?v=65f4f0e42d64" />
-    <script src="script.js?v=f2c74cfb2e91" defer></script>
+    <link rel="stylesheet" href="styles.css?v=2cd8394d0b7b" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+
     <div class="page">
-      <header class="site-header">
-        <div class="profile-details">
-          <a class="identity" href="#about">Yunho Choi<span class="name-dot" aria-hidden="true">.</span></a>
+      <header class="sidebar">
+        <div class="profile">
+          <img class="profile-photo" src="assets/me.jpeg" alt="Yunho Choi enjoying a meal" width="1886" height="1536" fetchpriority="high" />
+          <div class="profile-details">
+            <a class="identity" href="#about">Yunho Choi</a>
             <ul class="contact-links" aria-label="Contact links">
               <li>
                 <a href="https://www.linkedin.com/in/yunho-choi-16753a43b/" target="_blank" rel="noopener noreferrer" aria-label="Yunho Choi on LinkedIn" title="LinkedIn">
@@ -36,90 +39,31 @@
                 </a>
               </li>
             </ul>
+          </div>
         </div>
+
         <nav aria-label="Main navigation">
           <a href="#about" aria-current="location">About</a>
-          <a href="#publications">Publications</a>
           <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
           <a href="#collaborators">Collaborators</a>
         </nav>
       </header>
+
       <main id="main">
         <section class="about section" id="about" aria-labelledby="about-title">
-          <div class="hero-main">
-            <p class="eyebrow">LLM training <span aria-hidden="true">↔</span> Human–AI interaction</p>
-            <h1 id="about-title">Smarter models.<br /><em>What about us?</em></h1>
-            <div class="hero-copy">
-              <p class="bio">I am a Master student in <a href="https://gsds.snu.ac.kr/">Data Science</a> at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by <a href="https://yohanjo.github.io/">Prof. Yohan Jo</a> in the Human-Oriented Language Intelligence (HOLI) Lab.</p>
-              <p class="bio research-history">I used to work on making large language models more capable and better aligned with human through training methods like preference learning, on-policy distillation, and RL. Then I blinked, and the models got really smart.</p>
-              <p class="bio research-focus">Now I spend my time wondering where that leaves us humans, and how we’re going to live together.</p>
-            </div>
-          </div>
-          <aside class="hero-aside" aria-label="Portrait and research illustration">
-            <figure class="portrait">
-              <img class="profile-photo" src="assets/me.jpeg" alt="Yunho Choi enjoying a meal" width="1886" height="1536" fetchpriority="high" />
-              <svg class="portrait-star" viewBox="0 0 64 64" aria-hidden="true"><path d="m32 4 1 20L48 10 39 28l21-1-19 9 17 13-21-6-4 18-5-19L9 54l12-18-19-7 22-1L14 10l15 15Z" /></svg>
-            </figure>
-            <div class="interaction-sketch" role="img" aria-label="Overlapping circles representing humans and AI">
-              <svg viewBox="0 0 300 150" aria-hidden="true">
-                <ellipse class="human-orbit" cx="112" cy="70" rx="77" ry="49" transform="rotate(-12 112 70)" />
-                <ellipse class="ai-orbit" cx="188" cy="72" rx="77" ry="49" transform="rotate(11 188 72)" />
-                <text x="82" y="77">humans</text><text x="211" y="79">AI</text>
-                <path class="sketch-arrow" d="M148 82q-6 25 11 43m-9-3 9 3 1-10" />
-              </svg>
-              <p>figuring it out, together.</p>
-            </div>
-          </aside>
-        </section>
-
-        <section class="section" id="publications" aria-labelledby="publications-title">
           <div class="section-heading">
-            <h2 id="publications-title">Publications</h2>
+            <h1 id="about-title">About</h1>
+            <span class="section-number" aria-hidden="true">01</span>
           </div>
-          <!-- Titles and author order follow arXiv. Venue/status follow the user's updates. -->
-          <div class="publication-list">
-            <article class="publication">
-              <span class="date publication-year">2026</span>
-              <div>
-                <p class="paper-topic">Agent behavior</p>
-                <h3><a href="https://arxiv.org/abs/2609.32795">AgentHabit: Characterizing Distinct Behaviors of Agents on Everyday Tasks</a></h3>
-                <p class="authors">Woojung Song, Hoyeol Yang, Jeonghoon Shim, Sungjib Lim, Jonggeun Lee, <strong>Yunho Choi</strong>, Yohan Jo</p>
-                <p class="venue">Under review</p>
-              </div>
-            </article>
-            <article class="publication">
-              <span class="date publication-year">2026</span>
-              <div>
-                <p class="paper-topic">Actor–critic RL</p>
-                <h3><a href="https://arxiv.org/abs/2605.07579">Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States</a></h3>
-                <p class="authors"><strong>Yunho Choi</strong><sup>*</sup>, Jongwon Lim<sup>*</sup>, Woojin Ahn, Minjae Oh, Jeonghoon Shim, Yohan Jo</p>
-                <p class="venue venue-accepted">NeurIPS 2026</p>
-              </div>
-            </article>
-            <article class="publication">
-              <span class="date publication-year">2026</span>
-              <div>
-                <p class="paper-topic">On-policy distillation</p>
-                <h3><a href="https://arxiv.org/abs/2605.07865">KL for a KL: On-Policy Distillation with Control Variate Baseline</a></h3>
-                <p class="authors">Minjae Oh, Sangjun Song, Gyubin Choi, <strong>Yunho Choi</strong>, Yohan Jo</p>
-                <p class="venue venue-accepted">NeurIPS 2026</p>
-              </div>
-            </article>
-            <article class="publication">
-              <span class="date publication-year">2025</span>
-              <div>
-                <p class="paper-topic">Offline RL</p>
-                <h3><a href="https://arxiv.org/pdf/2509.19893">Future Policy Approximation for Offline Reinforcement Learning in LLM Reasoning</a></h3>
-                <p class="authors">Minjae Oh, <strong>Yunho Choi</strong>, Dongmin Choi, Yohan Jo</p>
-                <p class="venue">Under review</p>
-              </div>
-            </article>
-          </div>
+          <p class="bio">I am a Master student in <a href="https://gsds.snu.ac.kr/">Data Science</a> at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by <a href="https://yohanjo.github.io/">Prof. Yohan Jo</a> in the Human-Oriented Language Intelligence (HOLI) Lab.</p>
+          <p class="bio">I used to work on making large language models more capable and better aligned with human through training methods like preference learning, on-policy distillation, and RL. Then I blinked, and the models got really smart. Now I spend my time wondering where that leaves us humans, and how we’re going to live together.</p>
         </section>
 
         <section class="section" id="education" aria-labelledby="education-title">
           <div class="section-heading">
             <h2 id="education-title">Education</h2>
+            <span class="section-number" aria-hidden="true">02</span>
           </div>
           <ol class="education-list">
             <li class="education-entry">
@@ -141,9 +85,52 @@
           </ol>
         </section>
 
+        <section class="section" id="publications" aria-labelledby="publications-title">
+          <div class="section-heading">
+            <h2 id="publications-title">Publications</h2>
+            <span class="section-number" aria-hidden="true">03</span>
+          </div>
+          <!-- Titles and author order follow arXiv. Venue/status follow the user's updates. -->
+          <div class="publication-list">
+            <article class="publication">
+              <span class="date publication-year">2026</span>
+              <div>
+                <h3><a href="https://arxiv.org/abs/2609.32795">AgentHabit: Characterizing Distinct Behaviors of Agents on Everyday Tasks</a></h3>
+                <p class="authors">Woojung Song, Hoyeol Yang, Jeonghoon Shim, Sungjib Lim, Jonggeun Lee, <strong>Yunho Choi</strong>, Yohan Jo</p>
+                <p class="venue">Under review</p>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="date publication-year">2026</span>
+              <div>
+                <h3><a href="https://arxiv.org/abs/2605.07579">Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States</a></h3>
+                <p class="authors"><strong>Yunho Choi</strong><sup>*</sup>, Jongwon Lim<sup>*</sup>, Woojin Ahn, Minjae Oh, Jeonghoon Shim, Yohan Jo</p>
+                <p class="venue">NeurIPS 2026</p>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="date publication-year">2026</span>
+              <div>
+                <h3><a href="https://arxiv.org/abs/2605.07865">KL for a KL: On-Policy Distillation with Control Variate Baseline</a></h3>
+                <p class="authors">Minjae Oh, Sangjun Song, Gyubin Choi, <strong>Yunho Choi</strong>, Yohan Jo</p>
+                <p class="venue">NeurIPS 2026</p>
+              </div>
+            </article>
+            <article class="publication">
+              <span class="date publication-year">2025</span>
+              <div>
+                <h3><a href="https://arxiv.org/pdf/2509.19893">Future Policy Approximation for Offline Reinforcement Learning in LLM Reasoning</a></h3>
+                <p class="authors">Minjae Oh, <strong>Yunho Choi</strong>, Dongmin Choi, Yohan Jo</p>
+                <p class="venue">Under review</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
         <section class="section collaborators-section" id="collaborators" aria-labelledby="collaborators-title">
           <div class="section-heading">
             <h2 id="collaborators-title">Collaborators</h2>
+            <span class="section-number" aria-hidden="true">04</span>
           </div>
           <ul class="collaborator-list">
             <li>
@@ -160,7 +147,8 @@
             </li>
           </ul>
         </section>
-        <footer><span>© <span id="year">2026</span> Yunho Choi</span><a href="#about">Back to top <span aria-hidden="true">↑</span></a></footer>
+
+        <footer><span>© <span id="year">2026</span> Yunho Choi</span><a href="#about">Back to top</a></footer>
       </main>
     </div>
   </body>
