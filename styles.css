@@ -71,7 +71,7 @@ main { min-width: 0; }
 .section-heading h1, .section-heading h2 { font-family: var(--sans); font-size: 1.45rem; line-height: 1.25; font-weight: 700; font-style: normal; letter-spacing: -.025em; }
 .section-number { color: var(--muted); font-size: .75rem; font-variant-numeric: tabular-nums; }
 .intro { font-family: var(--sans); font-size: 1.8rem; font-weight: 400; line-height: 1.45; letter-spacing: normal; margin-bottom: 22px; max-width: 610px; }
-.bio { color: var(--body); margin-top: 12px; line-height: 1.8; }
+.bio { color: #111111; margin-top: 12px; line-height: 1.8; }
 .research-story { display: grid; gap: 14px; margin-top: 24px; }
 .research-story .bio { margin-top: 0; }
 .placeholder { color: inherit; }
@@ -146,7 +146,6 @@ footer a { text-decoration: none; }
   html { scroll-behavior: auto; }
 }
 
-.bio strong { color: var(--ink); font-weight: 700; }
 
 .paper-summary { font-size: .9375rem; line-height: 1.7; color: #606060; font-style: italic; margin-top: 7px; }
 .paper-summary strong { color: inherit; font-weight: 400; }
