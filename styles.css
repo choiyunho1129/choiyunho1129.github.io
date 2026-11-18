@@ -144,13 +144,4 @@ footer a { text-decoration: none; }
   html { scroll-behavior: auto; }
 }
 
-.research-label { color: var(--muted); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; margin-bottom: 10px; }
-.research-question { font-size: clamp(30px, 3vw, 40px); line-height: 1.2; font-weight: 700; letter-spacing: -1.2px; margin-bottom: 18px; }
-.research-now { color: var(--ink); font-size: 1.0625rem; line-height: 1.7; margin-bottom: 24px; max-width: 640px; }
-.research-background strong { color: var(--ink); }
-.paper-summary { font-size: .9375rem; line-height: 1.65; color: var(--body); margin-top: 8px; }
-.paper-summary strong { color: var(--ink); font-weight: 700; }
-@media (max-width: 720px) {
-  .research-question { font-size: 32px; }
-  .research-now { font-size: 1rem; }
-}
+.bio strong { color: var(--ink); font-weight: 700; }
