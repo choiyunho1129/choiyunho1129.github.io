@@ -86,7 +86,7 @@ h3 { font-size: 1rem; line-height: 1.5; font-weight: 700; }
 .publication-list { display: grid; gap: 25px; }
 .publication + .publication { padding-top: 25px; border-top: 1px solid var(--line); }
 .publication { display: grid; grid-template-columns: 40px minmax(0, 1fr); column-gap: 16px; align-items: baseline; }
-.publication h3 { font-size: 1.1875rem; line-height: 1.45; }
+.publication h3 { font-size: 1.0625rem; line-height: 1.45; }
 .publication h3 a { text-decoration: none; }
 .publication h3 a:hover { text-decoration: underline; }
 .authors { margin-top: 9px; font-size: .875rem; color: var(--body); line-height: 1.65; }
